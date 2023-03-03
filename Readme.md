@@ -23,18 +23,18 @@ JWT_SECRET=clave_secreta_para_generar_tokens
  ### _Uso:_
 El servidor se ejecuta en el puerto 3000. A continuación se muestra una lista de los endpoints disponibles:
 
-`/api/doctors`
-`GET /:` Obtiene la lista de todos los médicos
-`GET /:id:` Obtiene la información de un médico específico
-`POST /:` Crea un nuevo médico
-`PUT /:id:` Actualiza la información de un médico específico
-`DELETE /:id:` Elimina un médico específico
-`/api/patients`
-`GET /:` Obtiene la lista de todos los pacientes
-`GET /:id:` Obtiene la información de un paciente específico
-`POST /:` Crea un nuevo paciente
-`PUT /:id:` Actualiza la información de un paciente específico
-`DELETE /:id:` Elimina un paciente específico
-`/api/observations`
-`POST /: `Crea una nueva observación médica para un paciente
+- `/api/doctors`
+- `GET /:` Obtiene la lista de todos los médicos
+- `GET /:id:` Obtiene la información de un médico específico
+- `POST /:` Crea un nuevo médico
+- `PUT /:id:` Actualiza la información de un médico específico
+- `DELETE /:id:` Elimina un médico específico
+- `/api/patients`
+- `GET /:` Obtiene la lista de todos los pacientes
+- `GET /:id:` Obtiene la información de un paciente específico
+- `POST /:` Crea un nuevo paciente
+- `PUT /:id:` Actualiza la información de un paciente específico
+- `DELETE /:id:` Elimina un paciente específico
+- `/api/observations`
+- `POST /: `Crea una nueva observación médica para un paciente
 
